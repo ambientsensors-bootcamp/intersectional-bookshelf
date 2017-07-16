@@ -7,6 +7,7 @@ import { CuratedListComponent } from
 './component/curated-list/curated-list.component';
 import { HeaderComponent } from './component/header/header.component';
 import { SearchBarComponent } from './component/search-bar/search-bar.component';
+import { MaterialModule } from '@angular/material';
  
 @NgModule({
   declarations: [
