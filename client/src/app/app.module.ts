@@ -8,6 +8,7 @@ import { SearchBarComponent } from './component/search-bar/search-bar.component'
 import { MaterialModule } from '@angular/material';
 import { AboutComponent } from './component/about/about.component';
 import { AppRoutingModule } from './app-routing.module';
+import { 404pageComponent } from './component/404page/404page.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { AppRoutingModule } from './app-routing.module';
     HeaderComponent,
     SearchBarComponent,
     SubmitButtonComponent,
+    404pageComponent,
  
   ],
   imports: [
