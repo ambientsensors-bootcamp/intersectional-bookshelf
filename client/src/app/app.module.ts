@@ -8,6 +8,8 @@ import { SearchBarComponent } from './component/search-bar/search-bar.component'
 import { MaterialModule } from '@angular/material';
 import { AboutComponent } from './component/about/about.component';
 import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpModule } from '@angular/http';
 
 @NgModule({
   declarations: [
@@ -18,10 +20,13 @@ import { AppRoutingModule } from './app-routing.module';
     SearchBarComponent,
     SubmitButtonComponent,
 
- 
+
   ],
   imports: [
     BrowserModule,
+    MaterialModule,
+    BrowserAnimationsModule,
+    HttpModule,
     AppRoutingModule
   ],
   providers: [],
