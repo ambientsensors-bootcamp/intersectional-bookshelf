@@ -12,6 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpModule } from '@angular/http';
 import { RomanceComponent } from './component/romance/romance.component';
 import { NovelComponent } from './component/novel/novel.component';
+import { YoungsComponent } from './component/youngs/youngs.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { NovelComponent } from './component/novel/novel.component';
     SubmitButtonComponent,
     RomanceComponent,
     NovelComponent,
+    YoungsComponent,
 
 
   ],
