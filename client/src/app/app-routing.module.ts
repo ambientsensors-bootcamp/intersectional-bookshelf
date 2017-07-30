@@ -13,7 +13,7 @@ import{YoungsComponent} from "./component/youngs/youngs.component";
            { path: 'about', component: AboutComponent},
            { path: 'curated-list', component: CuratedListComponent },
            { path: 'romance', component: RomanceComponent },
-           { path: 'romance', component: RomanceComponent },
+           { path: 'novel', component: NovelComponent },
            { path: 'youngs', component: YoungsComponent },
            { path: 'submit-button', component: SubmitButtonComponent },
            { path: 'search-bar', component: SearchBarComponent},
