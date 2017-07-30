@@ -16,7 +16,12 @@
     <button md-menu-item routerLink="women-button">Women</button>
      
   </md-menu>
-  <button md-button routerLink="submit-button">Suggest a Book</button>
+   <button md-button [mdMenuTriggerFor]="suggest">Suggest Button</button>
+  <md-menu #suggest="mdMenu">
+    <button md-menu-item routerLink="Novel-button">Novel</button>
+    <button md-menu-item routerLink="yonges-button">youngs</button>
+    <button md-menu-item routerLink="Romance-button">Romance</button>
+  </md-menu>
   <button md-button routerLink="search-bar">Search for a Book</button>
 </md-card>
 <app-search-bar></app-search-bar>

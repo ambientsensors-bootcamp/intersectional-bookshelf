@@ -10,6 +10,8 @@ import { AboutComponent } from './component/about/about.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpModule } from '@angular/http';
+import { RomanceComponent } from './component/romance/romance.component';
+import { NovelComponent } from './component/novel/novel.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { HttpModule } from '@angular/http';
     HeaderComponent,
     SearchBarComponent,
     SubmitButtonComponent,
+    RomanceComponent,
+    NovelComponent,
 
 
   ],
