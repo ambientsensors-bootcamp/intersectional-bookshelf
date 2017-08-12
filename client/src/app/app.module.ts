@@ -11,7 +11,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpModule } from '@angular/http';
 import { RomanceComponent } from './component/romance/romance.component';
-import { NovelComponent } from './component/novel/novel.component';
 import { YoungsComponent } from './component/youngs/youngs.component';
 
 @NgModule({
@@ -23,7 +22,6 @@ import { YoungsComponent } from './component/youngs/youngs.component';
     SearchBarComponent,
     SubmitButtonComponent,
     RomanceComponent,
-    NovelComponent,
     YoungsComponent,
 
 

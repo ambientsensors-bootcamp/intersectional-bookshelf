@@ -5,7 +5,6 @@ import { CuratedListComponent } from './component/curated-list/curated-list.comp
 import { SubmitButtonComponent } from './component/submit-button/submit-button.component';
 import { SearchBarComponent } from "./component/search-bar/search-bar.component";
 import {RomanceComponent} from "./component/romance/romance.component";
-import {NovelComponent} from "./component/novel/novel.component";
 import{YoungsComponent} from "./component/youngs/youngs.component";
 
  const routes: Routes =
@@ -13,7 +12,6 @@ import{YoungsComponent} from "./component/youngs/youngs.component";
            { path: 'about', component: AboutComponent},
            { path: 'curated-list', component: CuratedListComponent },
            { path: 'romance', component: RomanceComponent },
-           { path: 'novel', component: NovelComponent },
            { path: 'youngs', component: YoungsComponent },
            { path: 'submit-button', component: SubmitButtonComponent },
            { path: 'search-bar', component: SearchBarComponent},
