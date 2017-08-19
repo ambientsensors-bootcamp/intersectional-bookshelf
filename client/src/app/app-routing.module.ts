@@ -6,11 +6,12 @@ import { SubmitButtonComponent } from './component/submit-button/submit-button.c
 import { SearchBarComponent } from "./component/search-bar/search-bar.component";
 import {RomanceComponent} from "./component/romance/romance.component";
 import{YoungsComponent} from "./component/youngs/youngs.component";
-
+import{NovelComponent} from "./component/novel/novel.component";
  const routes: Routes =
        [
            { path: 'about', component: AboutComponent},
            { path: 'curated-list', component: CuratedListComponent },
+            { path: 'novel', component: NovelComponent},
            { path: 'romance', component: RomanceComponent },
            { path: 'youngs', component: YoungsComponent },
            { path: 'submit-button', component: SubmitButtonComponent },
